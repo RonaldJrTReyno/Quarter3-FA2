@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>CalcU</title>
+        <link rel ="stylesheet" type="text/css" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>CalcU</h1>
+        
+        <h3>This page is a simple calculator tool.
+        Put the first number in the left box and
+        the right number in the second box.
+        Choose the desired operation using the buttons
+        below the text boxes.</h3>
+        
+        <div>
+            <input id = "n1" class = "input" placeholder="Num 1" type="text">
+            <input id = "n2" class = "input" placeholder="Num 2" type="text">
+        </div>
+        
+        <div class = "buttons">
+            <button onclick="cl('add')">+</button>
+            <button onclick="cl('sub')">-</button>
+            <button onclick="cl('mul')">*</button>
+            <button onclick="cl('div')">/</button>
+            <button onclick="cl('mod')">%</button>
+        </div>
+        
+        <div id = "results">
+            Results will be displayed here.
+        </div>
+    </body>
+</html>
